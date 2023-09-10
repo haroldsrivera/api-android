@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">API</string>
+    <string name="itemPrimero">Primero</string>
+    <string name="itemSegundo">Segundo</string>
+    <string name="itemTercero">Tercero</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+    <string name="tvName"></string>
+    <string name="tvUrl"></string>
+
+</resources>
