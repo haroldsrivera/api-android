@@ -6,9 +6,26 @@
     tools:context=".view.PrincipalFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/fragment1" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcView"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shimmer1"
+        android:layout_gravity="center">
+        <include layout = "@layout/shimmer_layout"/>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
 
 </FrameLayout>

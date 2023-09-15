@@ -13,4 +13,14 @@
     <color name="azul">#5DBCDE</color>
     <color name="azulOscuro">#5B9FF5</color>
     <color name="azukNoche">#4C63EB</color>
+
+    <color name="gray">#CDB8B8B8</color>
+    <color name="gray_200">#8A8781</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
 </resources>
